@@ -1,0 +1,25 @@
+{
+  "name": "ecmaboy",
+  "version": "1.0.0",
+  "description": "Javascript fantasy gaming handheld",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+		"watch": "webpack --watch",
+    "start": "npm run watch & http-server ./demo -p 4567"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schneiderik/ecmaboy.git"
+  },
+  "author": "Erik Schneider Gutierrez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schneiderik/ecmaboy/issues"
+  },
+  "homepage": "https://github.com/schneiderik/ecmaboy#readme",
+  "devDependencies": {
+    "http-server": "^0.10.0",
+    "webpack": "^3.3.0"
+  }
+}
