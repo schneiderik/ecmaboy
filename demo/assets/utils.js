@@ -1,4 +1,4 @@
-import constants from './constants';
+import constants from './../../lib/constants';
 
 export default {
   canvas: {
